@@ -1,0 +1,112 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.upper-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid white; */
+    gap: 10px;
+}
+h2{
+    background-color: black;
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+h5{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center
+}
+.items-left{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url("https://www.shutterstock.com/image-photo/image-wooden-table-front-abstract-600nw-634911236.jpg");
+}
+h1{
+    background-color: black;
+    color: chartreuse;
+    display: flex;
+    justify-content: center;
+}
+.upper-section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid white; */
+    gap: 10px;
+}
+.items-right{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.upper-section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid white; */
+    gap: 10px;
+}
+.items-left1{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+.items-right1{
+    background-color:red;
+    display: flex;
+    justify-content: center;
+}
+.upper-section3{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 500px){
+    h1{
+        background-color: black;
+        color: chartreuse;
+        display: flex;
+        flex-direction: column;
+        /* font-size: 10px; */
+    }
+}
+@media (max-width: 500px){
+    .upper-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px){
+    .upper-section1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px){
+    .upper-section2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px){
+    .upper-section3{
+        display: flex;
+        flex-direction: column;
+    }
+}
